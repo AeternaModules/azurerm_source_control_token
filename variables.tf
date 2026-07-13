@@ -3,8 +3,8 @@ variable "source_control_tokens" {
 Map of source_control_tokens, attributes below
 Required:
     - token
-    - token_key_vault_id (alternative to token - read from Key Vault instead)
-    - token_key_vault_secret_name (alternative to token - read from Key Vault instead)
+    - token_key_vault_id (optional, alternative to token)
+    - token_key_vault_secret_name (optional, alternative to token)
     - type
 Optional:
     - token_secret
